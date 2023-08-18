@@ -1,9 +1,9 @@
 from sqlalchemy.sql import text
 from datetime import datetime
-from amzn import ScrapeAmazon
-from helpers import *
-from db_utils import DBUtils
-from constants import *
+from platforms.amzn import ScrapeAmazon
+from utils.helpers import *
+from utils.db_utils import DBUtils
+from utils.constants import *
 
 
 class Controller:

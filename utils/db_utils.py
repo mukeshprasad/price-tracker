@@ -1,7 +1,7 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.sql import text
-from constants import DB_URL
+from utils.constants import DB_URL
 
 
 class DBUtils:

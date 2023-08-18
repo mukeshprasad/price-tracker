@@ -4,7 +4,7 @@ import telebot
 from telebot.types import ReplyKeyboardMarkup, KeyboardButton, ReplyKeyboardRemove
 from threading import Thread
 from controller import Controller
-from constants import INTRO_MESSAGE
+from utils.constants import INTRO_MESSAGE
 
 
 BOT_TOKEN = os.environ.get("TG_BOT_TOKEN") or "<ENTER_YOUR_TOKEN_HERE>"
