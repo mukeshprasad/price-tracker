@@ -2,7 +2,7 @@ import re
 import requests
 from urllib.parse import urlparse
 from bs4 import BeautifulSoup
-from constants import URL_PATTERN, HEADERS
+from utils.constants import URL_PATTERN, HEADERS
 
 
 def get_url_from_message(message):

@@ -1,9 +1,9 @@
 import requests
 from pprint import pprint
 from bs4 import BeautifulSoup
-from db_utils import DBUtils
-from constants import TABLE_NAME
-from helpers import get_soup
+from utils.db_utils import DBUtils
+from utils.constants import TABLE_NAME
+from utils.helpers import get_soup
 from sqlalchemy.sql import text
 
 
