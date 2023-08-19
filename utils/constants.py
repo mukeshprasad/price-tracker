@@ -1,17 +1,18 @@
 TABLE_NAME = "product_details"
 URL_PATTERN = r"https?://\S+"
-DB_URL = "postgresql+psycopg2://dev:admin@localhost/dropalertbot"
+# DB_URL = "postgresql+psycopg2://dev:admin@localhost/dropalertbot"
+DB_URL = "postgresql+psycopg2://dev:devdb#880@localhost/pricetracker"
 # Use this header on local machine
-HEADERS = {
-    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36",
-    "Accept-Language": "en-US, en;q=0.5",
-}
-
-# Use this header on server
 # HEADERS = {
-#     "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36",
+#     "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36",
 #     "Accept-Language": "en-US, en;q=0.5",
 # }
+
+# Use this header on server
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36",
+    "Accept-Language": "en-US, en;q=0.5",
+}
 
 INTRO_MESSAGE = (
     "Hello and Welcome to MP's PriceDropAlertBot!!\n\n"
