@@ -1,11 +1,16 @@
 TABLE_NAME = "product_details"
 URL_PATTERN = r"https?://\S+"
 DB_URL = "postgresql+psycopg2://dev:admin@localhost/dropalertbot"
-# Use this header on local machine
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36",
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/7794.7371.5648.5102 Safari/537.36",
     "Accept-Language": "en-US, en;q=0.5",
 }
+
+# Use this header on local machine
+# HEADERS = {
+#     "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.11.0.0 Safari/537.36",
+#     "Accept-Language": "en-US, en;q=0.5",
+# }
 
 # Use this header on server
 # HEADERS = {
